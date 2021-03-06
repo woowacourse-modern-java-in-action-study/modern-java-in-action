@@ -12,7 +12,7 @@ Stream API와 여러 개념들(함수형 인터페이스, 람다, 메서드 참�
 * 다음과 같은 메서드를 구현해야 하며, Operator별로 number1과 number2를 정상적으로 연산해야합니다.
     * ``public static Operator findOperator(String inputOperator)``
     * ``public int calculate(int number1, number2)``
-* 연산자 기호 문자열에 부합하는 연산자가 없다면 IllegalArgumentException 호출하세요.  
+* 입력받은 문자열이 연산자 기호 문자열(+ - * /)에 부합하지 않은 경우 IF 조건문을 사용하지 않고 IllegalArgumentException 호출하세요.  
 
 <br>
 
